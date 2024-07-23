@@ -1,5 +1,5 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
-**This practical free hands on course about Large Language models and their applications is 👷🏼still in development👷🏼. I will be posting the different lessons as I complete them.**
+**This practical free hands on course about Large Language models and their applications is 👷🏼in permanent development👷🏼. I will be posting the different lessons and samples as I complete them.**
 
 The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge acquired. 
 
@@ -36,17 +36,17 @@ The first project is a restaurant chatbot where the model will take customer ord
 
 ### Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.
 We will be utilizing OpenAI GPT-3.5 and Panel to develop a straightforward Chatbot tailored for a fast food restaurant. During the course, we will explore the fundamentals of prompt engineering, including understanding the various OpenAI roles, manipulating temperature settings, and how to avoid Prompt Injections. 
-| [Article](https://medium.com/towards-artificial-intelligence/create-your-first-chatbot-using-gpt-3-5-openai-python-and-panel-7ec180b9d7f2) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Vertical%20Chat.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/create-your-first-chatbot-using-gpt-3-5-openai-python-and-panel-7ec180b9d7f2) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_1-First_Chatbot_OpenAI.ipynb) |
 | --- | --- |
 
 ### How to Create a Natural Language to SQL Translator Using OpenAI API.
 Following the same framework utilized in the previous article to create the ChatBot, we made a few modifications to develop a Natural Language to SQL translator. In this case, the Model needs to be provided with the table structures, and adjustments were made to the prompt to ensure smooth functionality and avoid any potential malfunctions. With these modifications in place, the translator is capable of converting natural language queries into SQL queries.
-| [Article](https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb)
+| [Article](https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_2-Easy_NL2SQL.ipynb)
 | --- | --- |
 
 ### Brief Introduction to Prompt Engineering with OpenAI.
 We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples. 
-| WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Prompt_Engineering_OpenAI.ipynb)
+| WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_3-Intro_Prompt_Engineering.ipynb)
 | --- | --- |
 
 ## [Vector Databases with LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/2-Vector%20Databases%20with%20LLMs) 
@@ -54,7 +54,7 @@ A brief introduction to Vector Databases, a technology that will accompany us in
 
 ### Influencing Language Models with Personalized Information using a Vector Database. 
 If there's one aspect gaining importance in the world of large language models, it's exploring how to leverage proprietary information with them. In this lesson, we explore a possible solution that involves storing information in a vector database, ChromaDB in our case, and using it to create enriched prompts.
-|[Article](https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb) |
+|[Article](https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/2_1_Vector_Databases_LLMs.ipynb) |
 | --- | --- |
 
 ### Semantic Cache for RAG systems 
@@ -161,13 +161,19 @@ After the brief explanation we see an example about how is possible to fine-tune
 _____________
 <h1>🚀2- Projects.</h1>
 
-## [Natural Language to SQL](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/P1-NL2SQL).
+## [Natural Language to SQL.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/P1-NL2SQL).
 In this straightforward initial project, we are going to develop a SQL generator from natural language. We'll begin by creating the prompt to implement two solutions: one using OpenAI models running on Azure, and the other with an open-source model from Hugging Face.
 | Article | Notebook |
 | --- | --- |
 | [Create a NL2SQL prompt for OpenAI](https://medium.com/towards-artificial-intelligence/create-a-superprompt-for-natural-language-to-sql-conversion-for-openai-9d19f0efe8f4) | [Prompt creation for OpenAI](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb) |
 | WIP | [Prompt creation for defog/SQLCoder](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_SQLCoder.ipynb) |
 | [Inference Azure Configuration.](https://pub.towardsai.net/how-to-set-up-an-nl2sql-system-with-azure-openai-studio-2fcfc7b57301) | [Using Azure Inference Point](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/NL2SQL_OpenAI_Azure.ipynb) |
+
+## [Create and publish an LLM.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P2-MHF/readme.md) 
+In this small project we will create a new model aligning a microsoft-phi-3-model with DPO and then publish it to Hugging Face. 
+| Article | Notebook |
+| --- | --- |
+| WIP | [Aligning with DPO a phi3-3 model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P2-MHF/Aligning_DPO_phi3.ipynb)
 
 _____________
 <h1>🚀3- Architecting Enterprise Solutions.</h1>
